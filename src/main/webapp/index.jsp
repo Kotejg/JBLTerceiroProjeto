@@ -23,6 +23,37 @@
 				}else{ 
 				out.println(new java.util.Date());
 				}%> </h1> 
+				
+				
+							<!--  Segunda parte do exercicio -->
+			
+			<%! int contagem = 15;%> 
+			<%! int soma = 0; %> 
+								
+			<%
+			for(int i = 0; i< contagem; i++){
+			
+					soma+=i;
+					 out.println(soma);
+			}
+			%> 
+				 
+				<h1>soma de:
+				  <%=soma
+				  %></h1>
+				
+				
+				
+				
+				<!--  Segunda parte do exercicio -->
+				
+				
+				
+				
+				
+	
+				
+				
 
 
 </body>
