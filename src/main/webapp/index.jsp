@@ -46,6 +46,37 @@
 				
 				
 				<!--  Segunda parte do exercicio -->
+				<%@ page import="java.util.Calendar" %> 
+				<%@ page import="java.util.Date" %> 
+				
+				
+				<%
+				Calendar cal = Calendar.getInstance();
+				Date dt = new Date(); 
+				
+				int segundos = cal.get(Calendar.SECOND);  %> 
+				
+				<h1>Segundos: <%=segundos %></h1>
+				
+				<%
+				
+				if (segundos % 2 == 0){
+					out.println("E par");
+				} else {
+					out.println("E Impar");
+				} 
+
+				%> 
+				
+	
+				
+				
+				
+				
+				
+				
+				
+				
 				
 				
 				
